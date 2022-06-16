@@ -21,4 +21,4 @@ spec:
           - path: "/"
             backend:
               serviceName: redis-commander
-              servicePort: 8081
+              servicePort: 8088

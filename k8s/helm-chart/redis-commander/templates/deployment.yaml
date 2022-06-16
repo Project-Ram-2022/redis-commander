@@ -43,7 +43,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 8081
+              containerPort: 8088
               protocol: TCP
           env:
           {{- $envLength:= len .Values.env -}}

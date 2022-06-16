@@ -33,11 +33,11 @@ spec:
               value: "1"
           ports:
             - name: redis-commander
-              containerPort: 8081
+              containerPort: 8088
           livenessProbe:
             httpGet:
               path: /favicon.png
-              port: 8081
+              port: 8088
             initialDelaySeconds: 10
             timeoutSeconds: 5
           # adapt to your needs base on data stored inside redis (number of keys and size of biggest keys)

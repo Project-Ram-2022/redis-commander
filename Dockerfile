@@ -41,5 +41,5 @@ HEALTHCHECK --interval=1m --timeout=2s CMD ["/redis-commander/bin/healthcheck.js
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 CMD ["/redis-commander/docker/entrypoint.sh"]
 
-EXPOSE 8081
+EXPOSE 8088
 
